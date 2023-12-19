@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Registraiton Form</title>
+</head>
+<body>
+    <div class="container">
+        <h1 id="title">Registration form</h1>
+        <form>
+            <input class="input-field" type="text" placeholder="Username">
+            <input class="input-field" type="text" placeholder="Full name">
+            <input class="input-field" type="text" placeholder="Country">
+            <input class="input-field" type="text" placeholder="Email">
+            <input class="input-field" type="text" placeholder="Phone number">
+            <div class="wrapper">
+                <input type="radio" name="select" id="option-1" checked>
+                <input type="radio" name="select" id="option-2">
+                  <label for="option-1" class="option option-1">
+                    <div class="dot"></div>
+                    <span>Male</span>
+                </label>
+                <label for="option-2" class="option option-2">
+                    <div class="dot"></div>
+                    <span>Female</span>
+                </label>
+            </div>
+            <div class="birth-date">
+                <div>Date of birth </div>
+                <input class="input-field-date" type="text" placeholder="DD">  
+                <input class="input-field-date" type="text" placeholder="MM">  
+                <input style="width: 30%;" class="input-field-date" type="text" placeholder="YYYY">
+            </div>
+            <input class="input-field" type="password" placeholder="Passowrd">
+
+            <label class="terms">             
+                <input type="checkbox">
+                <p>Agree with <a href="#">Term & Conditions</a></p>
+            </label>
+
+            <button class="btn" type="submit">Create Account</button>
+        </form>
+    </div>
+    
+</body>
+</html>
